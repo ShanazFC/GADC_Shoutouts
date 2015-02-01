@@ -8,9 +8,9 @@ function drawToolBox(data) {
 $(document).on( 'click', '#showAvailable', toggleAvailable)
 
 $(document).on( 'click', '.clear', function(e) {
-  // clearSearch(e)
-  // $('#showAvailable').removeClass('button-pressed')
-  //   .html('Show Available')
+  // clearSearch(e);
+   // $('#showAvailable').removeClass('button-pressed')
+   //  .html('Show Available');
   location.reload(true);
 })
 
