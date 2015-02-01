@@ -60,9 +60,9 @@
 				<!-- {{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
 				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}} -->
 				<ul>
-					<li><small>Shoutout: </small></li>
+					<li><small>{{street}} {{city}} {{state}} </small></li>
 					<li>{{owner}}</li>
-					<li>Date & Time: {{street}} {{city}} {{state}}</li>
+					<!-- <li>Date & Time: {{street}} {{city}} {{state}}</li> -->
 					<!-- <li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li> -->
 					{{#tooldetails}}
 					<li><small>NOTES : </small>{{tooldetails}}</li>
